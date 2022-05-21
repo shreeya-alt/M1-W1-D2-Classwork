@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pick a Plan Website</title>
+
+    <style>
+        div{
+            text-align: center;
+            width: 45%;
+        }
+
+        h2{
+            font-family: Roboto, sans-serif;
+            font-size: 28pt;
+        }
+        p{
+            font-family: 'Poppins', sans-serif;
+            font-size: 12pt;
+        }
+
+        button{
+            background-color: #f78b26;
+            color: white;
+            font-size: 12pt;
+            font-family: 'Poppins', sans-serif;
+            padding: 0.9em;
+            border: transparent;
+            border-radius: 7px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: #e97d17;
+        }
+
+        table{
+            border-collapse: collapse;
+            margin-top: 2em;
+            margin-left: 9em;
+            margin-right: 9em;
+        }
+
+        th{
+            text-transform: uppercase;
+        }
+
+        th, td{
+            border: 2px solid #d0d2dd;
+            width: 15em;
+            padding: 0.8em;
+            font-family: 'Heebo', sans-serif;
+        }
+
+        thead{
+            background-color: #dbdde8;
+        }
+
+        .plan{
+            font-size: 25pt;
+        }
+
+        .features{
+            background-color: #fef3e9;
+            text-align: left;
+        }
+
+        .user{
+            text-align: center;
+        }
+
+        .firstBtn{
+            background-color: white;
+            border: 2px solid #f78b26;
+            color: black;
+        }
+
+        .firstBtn:hover{
+            background-color: white;
+        }
+
+        .secondBtn:hover{
+            background-color: gray;
+        }
+
+        .btnMargin{
+            margin-left: 75px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div>
+            <h2>Pick a Plan</h2>
+
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique minima eligendi eius! Excepturi consequuntur eveniet in consequatur minima ut veritatis a nam quod mollitia! Ipsam enim consectetur vel eos itaque.
+            </p>   
+            <button>Start your free trial</button> 
+        </div>
+    </center>
+
+
+    <table>
+        <thead>
+            <tr>
+                <th></th>
+                <th>Basic</th>
+                <th>Standart</th>
+                <th>Advanced</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monthly price</td>
+                <th class="plan">$ 29</th>
+                <th class="plan">$ 59</th>
+                <th class="plan">$ 139</th>
+            </tr>
+
+            <tr class="features">
+                <th>Features</th>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+
+            <tr>
+                <td>Users</td>
+                <td class="user">1 full user</td>
+                <td class="user">5 full users</td>
+                <td class="user">Custom users</td>
+            </tr>
+
+            <tr>
+                <td>Unlimited read-only users</td>
+                <td class="user">1,000 Email Previews</td>
+                <td class="user">2,000 Email Previews</td>
+                <td class="user">Custom Email Previews</td>
+            </tr>
+
+            <tr>
+                <td>Contacts</td>
+                <td class="user">5 contacts per client</td>
+                <td class="user">25 contacts per client</td>
+                <td class="user">Unlimited contacts</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <td>
+                    <button class="firstBtn btnMargin">CHOOSE PLAN</button>
+                </td>
+                <td>
+                    <button class="secondBtn btnMargin">CHOOSE PLAN</button>
+                </td>
+                <td>
+                    <button class="firstBtn btnMargin">CHOOSE PLAN</button>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+</body>
+</html>
